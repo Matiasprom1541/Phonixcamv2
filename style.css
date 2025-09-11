@@ -83,4 +83,13 @@
 .image{
   width:50%;
   height: auto;
+
+}
+
+#quality{    
+    background-color: transparent;
+    border:none;
+    font-size:19px;
+    font-family: "Mouse Memoirs", sans-serif;
+    
 }
