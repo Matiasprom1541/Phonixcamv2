@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  body{
+    background-image: url("background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: "Mouse Memoirs", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:rgb(168, 168, 168);
+  }
+
+  button,a{
+     color:rgb(184, 184, 184);
+    font-family: "Mouse Memoirs", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    letter-spacing: 1.7px;
+    font-size: 18px;
+  }
+
+  .container{
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .btns {
+    display: flex;
+    width: 100%;
+    height: 6ch;
+    padding-left: 10ch;
+    padding-right: 10ch;
+    justify-content: center;
+    align-items: center;
+    margin: 2vh;
+    border-radius: 17px;
+    cursor: pointer;
+    border: none;
+
+  background-color: var(--color);
+
+  &:active{
+    background-color: var(--dark-color);
+  }
+  box-shadow:
+    -2px -4px 5px rgba(255, 255, 255, 0.8), /* Resaltado (blanco) */
+    2px 4px 5px rgba(0, 0, 0, 0.3);      /* Sombra (oscuro) */
+  font-weight: bold;
+}
+
+/*.btns:nth-child(1){
+  --color: rgb(35, 122, 0);
+  --dark-color: color-mix(in srgb, var(--color), black 35%);
+  --light-color: color-mix(in srgb, var(--color), white 25%);
+}*/
+
+.btns:nth-child(2){
+  --color: rgb(240, 20, 20);
+  --dark-color: color-mix(in srgb, var(--color), black 35%);
+  --light-color: color-mix(in srgb, var(--color), white 25%);
+}
+
+.btns:nth-child(3){
+  --color: rgb(53, 20, 240);
+  --dark-color: color-mix(in srgb, var(--color), black 35%);
+  --light-color: color-mix(in srgb, var(--color), white 25%);
+}
+
+.btns:nth-child(4){
+  --color: rgb(240, 101, 20);
+  --dark-color: color-mix(in srgb, var(--color), black 35%);
+  --light-color: color-mix(in srgb, var(--color), white 25%);
+}
+
+.image{
+  width:50%;
+  height: auto;
+}
