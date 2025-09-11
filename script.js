@@ -76,18 +76,19 @@ document.addEventListener('DOMContentLoaded', () => {
   // 🎯 Teclas F3–F6
   document.addEventListener('keydown', (e) => {
     switch (e.key) {
-      case 'F3':
+      case 'F9':
         startRecording();
         break;
-      case 'F4':
+      case 'F8':
         pauseRecording();
         break;
-      case 'F5':
+      case 'F12':
         resumeRecording();
         break;
-      case 'F6':
+      case 'F10':
         stopRecording();
         break;
     }
   });
 });
+
