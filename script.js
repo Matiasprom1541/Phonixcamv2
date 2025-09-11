@@ -79,16 +79,15 @@ document.addEventListener('DOMContentLoaded', () => {
       case 'F9':
         startRecording();
         break;
-      case 'F8':
+      case 'F10':
         pauseRecording();
         break;
       case 'F12':
         resumeRecording();
         break;
-      case 'F10':
+      case 'F8':
         stopRecording();
         break;
     }
   });
 });
-
