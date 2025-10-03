@@ -12,11 +12,11 @@
     font-family: "Mouse Memoirs", sans-serif;
     font-weight: 400;
     font-style: normal;
-    color:rgb(168, 168, 168);
+    color:#DCDCDC;
   }
 
   button,a{
-     color:rgb(184, 184, 184);
+     color:#DCDCDC;
     font-family: "Mouse Memoirs", sans-serif;
     font-weight: 100;
     font-style: normal;
@@ -92,4 +92,5 @@
     font-family: "Mouse Memoirs", sans-serif;
     font-weight: 100;
     font-style: normal;
+
 }
