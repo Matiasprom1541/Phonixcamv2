@@ -12,11 +12,11 @@
     font-family: "Mouse Memoirs", sans-serif;
     font-weight: 400;
     font-style: normal;
-    color:#DCDCDC;
+    color:rgb(36, 35, 35);
   }
 
   button,a{
-     color:#DCDCDC;
+    color:rgb(78, 78, 78);
     font-family: "Mouse Memoirs", sans-serif;
     font-weight: 100;
     font-style: normal;
@@ -25,7 +25,7 @@
   }
 
   .container{
-    margin-top: 10%;
+    margin-top: 5%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -92,5 +92,56 @@
     font-family: "Mouse Memoirs", sans-serif;
     font-weight: 100;
     font-style: normal;
+}
 
+.contain{
+  width:50%;
+}
+
+.steps{
+  margin-top: 1%;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  list-style: none;
+}
+
+.steps li{
+  margin-top: 1%;
+}
+
+.btn {
+    display: flex;
+    width: 48%;
+    height: 4ch;
+    padding-left: 5ch;
+    padding-right: 5ch;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1vh;
+    border-radius: 17px;
+    cursor: pointer;
+    border: none;
+
+  background-color: var(--color);
+
+  &:active{
+    background-color: var(--dark-color);
+  }
+  box-shadow:
+    -2px -4px 5px rgba(255, 255, 255, 0.8),/* Resaltado (blanco) */
+    2px 4px 5px rgba(0, 0, 0, 0.3);      /* Sombra (oscuro) */
+  font-weight: bold;
+}
+
+.btn:nth-child(2){
+  --color: rgba(14, 138, 62, 0.8);
+  --dark-color: color-mix(in srgb, var(--color), black 35%);
+  --light-color: color-mix(in srgb, var(--color), white 25%);
+}
+
+.btn:nth-child(3){
+  --color: rgba(50, 47, 255, 0.8);
+  --dark-color: color-mix(in srgb, var(--color), black 35%);
+  --light-color: color-mix(in srgb, var(--color), white 25%);
 }
